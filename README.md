@@ -10,7 +10,7 @@ Strapi est utilisé comme CMS et n8n comme outil de workflow d'automatisation.
 ## Installation
 
 1. Clonez le dépôt : https://github.com/gitreposh/automation.git
-2. cd docker-v4
+2. cd automation
 3. Installez les dépendances pour Strapi : cd my-strapi-app puis npm install
 4. Installez les dépendances pour n8n : cd ../my-n8n-app puis npm install
 5. Revenez au répertoire racine du projet et démarrez les services avec Docker Compose : cd .. puis docker-compose up --build
