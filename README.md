@@ -16,11 +16,17 @@ Strapi est utilisé comme CMS et n8n comme outil de workflow d'automatisation.
 5. Revenez au répertoire racine du projet et démarrez les services avec Docker Compose : cd .. puis docker-compose up --build
 
 ## Structure du Projet
-my-strapi-app/ : Contient l'application Strapi.
-my-n8n-app/ : Contient l'application n8n.
-docker-compose.yml : Fichier de configuration pour Docker Compose.
-.gitignore : Fichier de configuration pour ignorer certains fichiers et dossiers dans Git.
+- my-strapi-app/ : Contient l'application Strapi.
+- my-n8n-app/ : Contient l'application n8n.
+- docker-compose.yml : Fichier de configuration pour Docker Compose.
+- .gitignore : Fichier de configuration pour ignorer certains fichiers et dossiers dans Git.
 
 ## Accéder aux Applications
-Strapi : Accédez à Strapi via http://localhost:1337
-n8n : Accédez à n8n via http://localhost:5678
+- Strapi : Accédez à Strapi via http://localhost:1337
+- n8n : Accédez à n8n via http://localhost:5678
+
+## Configurer les accès 
+Strapi :
+email : admin@local.com
+ // password : Admin123
+// url : http://automation_strapi_1:1337/
