@@ -1,4 +1,4 @@
-# Strapi & n8n Docker Project
+# 🚀 Strapi & n8n Docker Project
 Ce projet configure et exécute une application Strapi et un serveur n8n à l'aide de Docker et Docker Compose. 
 Strapi est utilisé comme CMS et n8n comme outil de workflow d'automatisation.
 
